@@ -1,0 +1,1 @@
+This program is a console application that receives, stores, and displays a customer's ID, name, and email. It uses the Customer structure to manage data, with the input and output functionalities handled by the inputCustomerData and printCustomerData functions, respectively. The program is structured into three separate files: Customer.h, Customer.cpp, and main.cpp.
