@@ -8,26 +8,25 @@
 #include <iostream>
 #include "Customer.h"
 
-using namespace std;
-
 // Function to input customer data
 void inputCustomerData(Customer &customer) {
-    cout << "Enter customer ID: ";
-    cin >> customer.id;
-    cin.ignore();
+    std::cout << "Enter customer ID: ";
+    std::cin >> customer.id;
+    std::cin.ignore();
 
-    cout << "Enter customer name: ";
-    getline(cin, customer.name);
+    std::cout << "Enter customer name: ";
+    std::getline(std::cin, customer.name);
 
-    cout << "Enter customer email: ";
-    getline(cin, customer.email);
+    std::cout << "Enter customer email: ";
+    std::getline(std::cin, customer.email);
 }
 
-// Function to print customer ID,Name,and email
+// Function to print customer ID, Name, and Email
 void printCustomerData(const Customer &customer) {
-    cout << "\nCustomer Information:\n";
-    cout << "ID: " << customer.id << "\n";
-    cout << "Name: " << customer.name << "\n";
-    cout << "Email: " << customer.email << "\n";
+    std::cout << "\nCustomer Information:\n";
+    std::cout << "ID: " << customer.id << "\n";
+    std::cout << "Name: " << customer.name << "\n";
+    std::cout << "Email: " << customer.email << "\n";
 }
+
 
